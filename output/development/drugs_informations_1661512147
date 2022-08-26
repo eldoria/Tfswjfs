@@ -1,0 +1,101 @@
+[
+    {
+        "atccode": "6302001",
+        "drug": "ISOPRENALINE",
+        "clinical_trial": [],
+        "medical_publication": [
+            {
+                "id_medical_publication": 9,
+                "title_medical_publication": "Gold nanoparticles synthesized from Euphorbia fischeriana root by green route method alleviates the isoprenaline hydrochloride induced myocardial infarction in rats.",
+                "date_medical_publication": "["
+            }
+        ],
+        "journal": []
+    },
+    {
+        "atccode": "A01AD",
+        "drug": "EPINEPHRINE",
+        "clinical_trial": [
+            {
+                "id_clinical_trial": "NCT04188184",
+                "title_clinical_trial": "Tranexamic Acid Versus Epinephrine During Exploratory Tympanotomy",
+                "date_clinical_trial": "27 April 2020"
+            }
+        ],
+        "medical_publication": [],
+        "journal": []
+    },
+    {
+        "atccode": "A03BA",
+        "drug": "ATROPINE",
+        "clinical_trial": [],
+        "medical_publication": [],
+        "journal": []
+    },
+    {
+        "atccode": "A04AD",
+        "drug": "DIPHENHYDRAMINE",
+        "clinical_trial": [
+            {
+                "id_clinical_trial": "NCT01967433",
+                "title_clinical_trial": "Use of Diphenhydramine as an Adjunctive Sedative for Colonoscopy in Patients Chronically on Opioids",
+                "date_clinical_trial": "1 January 2020"
+            },
+            {
+                "id_clinical_trial": "NCT04189588",
+                "title_clinical_trial": "Phase 2 Study IV QUZYTTIR\u2122 (Cetirizine Hydrochloride Injection) vs V Diphenhydramine",
+                "date_clinical_trial": "1 January 2020"
+            },
+            {
+                "id_clinical_trial": "NCT04237091",
+                "title_clinical_trial": "Feasibility of a Randomized Controlled Clinical Trial Comparing the Use of Cetirizine to Replace Diphenhydramine in the Prevention of Reactions Related to Paclitaxel",
+                "date_clinical_trial": "1 January 2020"
+            }
+        ],
+        "medical_publication": [],
+        "journal": []
+    },
+    {
+        "atccode": "R01AD",
+        "drug": "BETAMETHASONE",
+        "clinical_trial": [
+            {
+                "id_clinical_trial": "NCT04153396",
+                "title_clinical_trial": "Preemptive Infiltration With Betamethasone and Ropivacaine for Postoperative Pain in Laminoplasty or \\xc3\\xb1 Laminectomy",
+                "date_clinical_trial": "1 January 2020"
+            },
+            {
+                "id_clinical_trial": "NCT04153396",
+                "title_clinical_trial": "Preemptive Infiltration With Betamethasone and Ropivacaine for Postoperative Pain in Laminoplasty or \\xc3\\xb1 Laminectomy",
+                "date_clinical_trial": "1 January 2020"
+            }
+        ],
+        "medical_publication": [
+            {
+                "id_medical_publication": 10,
+                "title_medical_publication": "Clinical implications of umbilical artery Doppler changes after betamethasone administration",
+                "date_medical_publication": "["
+            },
+            {
+                "id_medical_publication": "11",
+                "title_medical_publication": "Effects of Topical Application of Betamethasone on Imiquimod-induced Psoriasis-like Skin Inflammation in Mice.",
+                "date_medical_publication": "T"
+            }
+        ],
+        "journal": []
+    },
+    {
+        "atccode": "S03AA",
+        "drug": "TETRACYCLINE",
+        "clinical_trial": [],
+        "medical_publication": [],
+        "journal": []
+    },
+    {
+        "atccode": "V03AB",
+        "drug": "ETHANOL",
+        "clinical_trial": [],
+        "medical_publication": [],
+        "journal": []
+    }
+]
