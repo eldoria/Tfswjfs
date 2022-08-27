@@ -143,8 +143,9 @@ def move_files(ts):
     folders = os.listdir("data")
     for folder in folders:
         for file in os.listdir(f"data/{folder}"):
-            start, end = file.split(".")
-            shutil.move(f"data/{folder}/{file}", f"data_processed/{folder}/{start}_{ts}.{end}")
+            if file != ".gitkeep":
+                start, end = file.split(".")
+                shutil.move(f"data/{folder}/{file}", f"data_processed/{folder}/{start}_{ts}.{end}")
 
 
 # inutile en prod, son seul but est de remettre les fichiers dans leur dossier d'origine sans avoir à le faire à la main
@@ -152,8 +153,9 @@ def reverse_move_files():
     folders = os.listdir("data_processed")
     for folder in folders:
         for file in os.listdir(f"data_processed/{folder}"):
-            start, end = file.split(".")
-            shutil.move(f"data_processed/{folder}/{file}", f"data/{folder}/{'_'.join(start.split('_')[:-1])}.{end}")
+            if file != ".gitkeep":
+                start, end = file.split(".")
+                shutil.move(f"data_processed/{folder}/{file}", f"data/{folder}/{'_'.join(start.split('_')[:-1])}.{end}")
 
 
 if __name__ == "__main__":
