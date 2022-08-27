@@ -26,9 +26,11 @@ def load_data() -> [pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     drugs_folder = "data/drugs/"
     publication_medical_folder = "data/pubmed/"
 
-    clinicals_trials_files = [clinicals_trials_folder + file for file in os.listdir(clinicals_trials_folder)]
-    drugs_files = [drugs_folder + file for file in os.listdir(drugs_folder)]
-    publication_medical_files = [publication_medical_folder + file for file in os.listdir(publication_medical_folder)]
+    clinicals_trials_files = [clinicals_trials_folder + file for file in os.listdir(clinicals_trials_folder)]\
+        .remove(f"{clinicals_trials_folder}.gitkeep")
+    drugs_files = [drugs_folder + file for file in os.listdir(drugs_folder)].remove(f"{drugs_folder}.gitkeep")
+    publication_medical_files = [publication_medical_folder + file for file in os.listdir(publication_medical_folder)]\
+        .remove(f"{publication_medical_folder}.gitkeep")
 
     # on vérifie que les dossiers contenant les données ne sont pas vides
     assert clinicals_trials_files, exit("le dossier des tests clinique est vide")
@@ -159,5 +161,5 @@ def reverse_move_files():
 
 
 if __name__ == "__main__":
-    dag()
-    # reverse_move_files()
+    #dag()
+    reverse_move_files()
