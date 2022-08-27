@@ -196,6 +196,6 @@ def extract_journal(json):
 
 
 if __name__ == "__main__":
-    # dag()
-    # reverse_move_files()
+    dag()
+    reverse_move_files()
     most_mentioned_journal()
